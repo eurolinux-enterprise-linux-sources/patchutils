@@ -1,7 +1,7 @@
 Summary: A collection of programs for manipulating patch files
 Name: patchutils
 Version: 0.3.3
-Release: 2%{?dist}
+Release: 4%{?dist}
 License: GPLv2+
 Group: Applications/System
 URL: http://cyberelk.net/tim/patchutils/
@@ -49,6 +49,12 @@ rm -rf %{buildroot}
 %{_mandir}/*/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.3.3-4
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.3.3-3
+- Mass rebuild 2013-12-27
+
 * Thu Apr 11 2013 Tim Waugh <twaugh@redhat.com> 0.3.3-2
 - Fixed help output (bug #948973).
 - Fixed changelog dates.
